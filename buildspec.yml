@@ -4,7 +4,7 @@ phases:
   pre_build:
     commands:
       - docker build -t sample-aws-ap .
-    build:
-      commands:
-        - docker images
-        - docker run sample-aws-ap
+  build:
+    commands:
+      - docker images
+      - docker run sample-aws-ap
